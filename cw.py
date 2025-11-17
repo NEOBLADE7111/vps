@@ -27,8 +27,8 @@ from telegram.ext import (
 # ---------------------------
 # ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ
 # ---------------------------
-BOT_TOKEN="8485686944:AAH-NNQK2UBSraeZ9balu70-yLYZl00K_P4"
-ADMIN_IDS = [, 8295588229]
+BOT_TOKEN="8333553244:AAEoetSeIUJwmwfMZJVxR9HmTBJzovdfJB0"
+ADMIN_IDS = [8295588229]
 REQUIRED_CHANNELS = ["@AYESHA_X_MUSIC_SUPPORT", "@VIOLENCE_WORLD"]
 
 DB_PATH = "cloudways_bot.db"
@@ -425,7 +425,7 @@ class ᴄʟᴏᴜᴅᴡᴀʏꜱʙᴏᴛ:
         except Exception as e:
             return {"success": False, "error": str(e), "status_code": 0}
 
-    @NEO_ʀᴜɴ_ʙʟᴏᴄᴋɪɴɢ
+    NEO_ʀᴜɴ_ʙʟᴏᴄᴋɪɴɢ
     def NEO_ꜱɪɢɴᴜᴘ_ʀᴇQᴜᴇꜱᴛ(self, details):
         return self._ᴠɪꜱʜᴀʟ_ꜱɪɢɴᴜᴘ_ʀᴇQᴜᴇꜱᴛ_ʙʟᴏᴄᴋɪɴɢ(details)
 
